@@ -7,7 +7,10 @@ const ProfileHeader = ({ navigation, title }) => (
   <Header
     navigation={navigation}
     leftButton={
-      <TouchableOpacity onPress={() => navigation.goBack()}>
+      <TouchableOpacity
+        hitSlop={{ top: 10, right: 30, bottom: 10, left: 10 }}
+        onPress={() => navigation.goBack()}
+      >
         <Image
           source={require('../../../assets/arrow.png')}
           style={styles.backIconStyle}

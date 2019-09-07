@@ -23,7 +23,6 @@ import DrawerContent from '../screens/DrawerContent';
 const AuthRoutes = createStackNavigator(
   {
     Login: LoginPage,
-    // Home: HomePage,
   },
   {
     headerMode: 'none',

@@ -1,7 +1,7 @@
 import { Platform } from 'react-native';
 const CARD_SHADOW = Platform.select({
   android: {
-    elevation: 7,
+    elevation: 1,
   },
   ios: {
     shadowColor: 'rgba(0, 172, 234, 0.3)',
