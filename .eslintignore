@@ -1,0 +1,8 @@
+!.*
+node_modules/
+coverage/
+reports/
+build/
+dist/
+ibmmfpf.js
+ibmmfpfanalytics.js
